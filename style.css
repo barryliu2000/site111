@@ -1,0 +1,175 @@
+
+html {
+    font-size: 14px;
+   height: 100%; /*外層高度100%*/
+  margin: 0;
+
+}
+.wrapper {
+  min-height: 100%; /*外層高度100%*/
+  margin-bottom: -40px; /*隨footer高度需做調整*/
+}
+.content{
+  padding-bottom: 50px; /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
+  text-align:center;
+}
+
+
+.div {
+    max-width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+button99 {
+   	box-shadow: 0px 0px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #8A360F 5%, #9C661F 100%);
+
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:7px 0px;
+	text-decoration:none;
+
+   width:100%;
+  text-align: center;
+}
+
+button99:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+
+}
+button {
+  background-color: #1fafa2	;
+    margin: 4px;
+border-radius: 12px;
+width:46%;
+ height:320px;
+ display: inline-block;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+cursor: pointer;
+}
+button3 {
+  background-color: #6e9dce;
+    margin: 4px;
+border-radius: 12px;
+width:45%;
+
+  border: none;
+  color: white;
+  padding: 15px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+cursor: pointer;
+}
+button4 {
+  background-color: #fa6900;
+    margin: 4px;
+border-radius: 12px;
+width:45%;
+
+  border: none;
+  color: white;
+  padding: 15px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+cursor: pointer;
+}
+
+
+h2 {
+    background: #bfafa2;
+    border-radius: 6px 6px 6px 6px;
+
+    color: #FFFFFF;
+    font-family:"微軟雅黑", "宋體", "黑體", Arial;
+    font-size: 42px;
+text-align:center;
+    height: 54px;
+    line-height: 56px;
+    margin: 6px 0 !important;
+    padding: 1px 1px 1px 1px;
+    text-shadow: 2px 2px 3px #222222;
+}
+
+h3 {
+    background: #5B9600;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family:"微軟雅黑", "宋體", "黑體", Arial;
+    font-size: 13px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 20px;
+    margin: 12px 0 !important;
+    padding: 5px 0 5px 10px;
+    text-shadow: 2px 2px 3px #222222;
+}
+.myButton {
+	box-shadow: 0px 14px 21px -4px #276873;
+	background:linear-gradient(to bottom, #69aac2 5%, #3a7f8a 100%);
+	background-color:#69aac2;
+	border-radius:6px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:9px;
+
+	padding:2px 76px;
+	text-decoration:none;
+	text-shadow:2px 1px 15px #3d768a;
+  width:100%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #3a7f8a 5%, #69aac2 100%);
+	background-color:#3a7f8a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer{
+  height: 20px; /*設定footer本身高度*/
+
+	background:linear-gradient(to bottom, #69aac2 15%, #3a7f8a 100%);
+	background-color:#69aac2;
+padding:6px 0px;
+
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:12px;
+
+
+	text-decoration:none;
+	text-shadow:2px 1px 15px #3d768a;
+  width:100%;
+   text-align: center;
+}
